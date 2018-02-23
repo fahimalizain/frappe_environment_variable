@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include frappe_environment_variable *.css
+recursive-include frappe_environment_variable *.csv
+recursive-include frappe_environment_variable *.html
+recursive-include frappe_environment_variable *.ico
+recursive-include frappe_environment_variable *.js
+recursive-include frappe_environment_variable *.json
+recursive-include frappe_environment_variable *.md
+recursive-include frappe_environment_variable *.png
+recursive-include frappe_environment_variable *.py
+recursive-include frappe_environment_variable *.svg
+recursive-include frappe_environment_variable *.txt
+recursive-exclude frappe_environment_variable *.pyc
